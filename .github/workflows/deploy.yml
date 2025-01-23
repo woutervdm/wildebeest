@@ -111,10 +111,10 @@ jobs:
         with:
           command: d1 migrations apply wildebeest-${{ env.NAME_SUFFIX }}
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          preCommands: |
-            echo "*** pre commands ***"
-            echo -e "[[d1_databases]]\nbinding=\"DATABASE\"\ndatabase_name=\"wildebeest-${{ env.NAME_SUFFIX }}\"\ndatabase_id=\"${{ env.d1_id }}\"" >> wrangler.toml
-            echo "******"
+#          preCommands: |
+#            echo "*** pre commands ***"
+#            echo -e "[[d1_databases]]\nbinding=\"DATABASE\"\ndatabase_name=\"wildebeest-${{ env.NAME_SUFFIX }}\"\ndatabase_id=\"${{ env.d1_id }}\"" >> wrangler.toml
+#            echo "******"
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
