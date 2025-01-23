@@ -6,10 +6,10 @@ compatibility_date = "2022-12-05"
 node_compat = true
 
 # Specify your account id here so that all commands run agains the correct account.
-# account_id = "<your account id>"
+account_id = "19b9e5006bb197fdee95f345b11583b3"
 
 [[d1_databases]]
 binding = "DATABASE"
-database_name = "wildebeest"
+database_name = "wildebeest-woutervdm"
 # Replace this database_id with the id of the database created by `yarn deploy:init`.
-database_id = "83821907-97fd-44b4-8f21-e3d6b736e7ef"
+database_id = "f5374281-6a62-4229-843c-34f3b66d50ff"
